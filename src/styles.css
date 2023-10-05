@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.post {
+  padding: 10px;
+  margin: 10px;
+  background: #f3ecec;
+  border-radius: 5px;
+  color: #070101;
+}
+.btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px;
+}
+button {
+  padding: 6px 10px;
+  border-radius: 18px;
+  border: 1px solid #ccc;
+  margin: 4px;
+  font-size: 16px;
+  color: #fff;
+}
+.edit-btn {
+  background: #618ef5;
+}
+.delete-btn {
+  background: #f11a1a;
+}
+input {
+  padding: 8px;
+  border-radius: 6px;
+  width: auto;
+}
